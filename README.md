@@ -1,3 +1,2 @@
 # TA-PDKP
-Tugas Akhir Praktikum DKP
-Program Reservasi Klinik
+Tugas Akhir Praktikum DKP. Program Reservasi Klinik
