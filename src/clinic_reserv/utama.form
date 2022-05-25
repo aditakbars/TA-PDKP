@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="clinic_reserv.utama">
+  <grid id="27dc6" binding="panelKed" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b3969" class="javax.swing.JLabel" binding="labelsat">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bell MT" size="24"/>
+          <text value="KLINIK PERMATA BUNGA"/>
+        </properties>
+      </component>
+      <vspacer id="fc5cd">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="299da">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c9640" class="javax.swing.JButton" binding="kembaliButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="22"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="kembali"/>
+        </properties>
+      </component>
+      <hspacer id="cd4d8">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="22"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="7720">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="22"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="7c213">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2ccdc" class="javax.swing.JButton" binding="okeButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="22"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Oke"/>
+        </properties>
+      </component>
+      <component id="64621" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <text value="Hari"/>
+        </properties>
+      </component>
+      <component id="9d203" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <text value="Tanggal"/>
+        </properties>
+      </component>
+      <component id="8e156" class="javax.swing.JTextField" binding="textFieldTgl">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="b82f8" class="javax.swing.JComboBox" binding="comboBoxTgl">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font size="14" style="0"/>
+          <model>
+            <item value="Hari Ini"/>
+            <item value="Besok"/>
+            <item value="Lusa"/>
+          </model>
+        </properties>
+      </component>
+      <component id="384f0" class="javax.swing.JLabel" binding="labelErr">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="0"/>
+          <foreground color="-52431"/>
+          <horizontalAlignment value="11"/>
+          <text value="*error"/>
+        </properties>
+      </component>
+      <component id="1635f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <text value="Shift"/>
+        </properties>
+      </component>
+      <component id="7b53" class="javax.swing.JComboBox" binding="comboBoxShi">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <model>
+            <item value="Pagi"/>
+            <item value="Sore"/>
+          </model>
+        </properties>
+      </component>
+      <component id="96a6b" class="javax.swing.JTextField" binding="textFieldWakt">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="21594" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <text value="Waktu"/>
+        </properties>
+      </component>
+      <component id="58d16" class="javax.swing.JTextArea" binding="textAreaInfo">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="636e" class="javax.swing.JLabel" binding="labelut">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Corbel" size="20" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
